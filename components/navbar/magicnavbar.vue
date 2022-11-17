@@ -48,6 +48,9 @@
         <b-navbar-item href="#">
           Consultoria Pedagógica & Formação
         </b-navbar-item>
+        <b-navbar-item href="#">
+           Educação Executiva & Cursos Udemy
+        </b-navbar-item>
       </b-navbar-dropdown>
 
       <b-navbar-dropdown

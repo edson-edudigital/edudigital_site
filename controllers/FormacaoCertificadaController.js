@@ -68,4 +68,29 @@ export default {
       },
     ],
   },
+
+  cursosUdemy: {
+    vantagens: [
+      {
+        icon: 'https://edudigital.pt/home/images/Grupo_949.png',
+        title: 'Várias modalidades',
+        text: 'Os cursos executivos estão disponíveis em 3 modalidades: presencial, online ou mista. E possuem várias datas de sessões a decorrer durante o ano. Para adaptação às necessidades e à falta de tempo dos executivos.',
+      },
+      {
+        icon: '	https://edudigital.pt/home/images/Grupo_972.png',
+        title: 'Programas executivos disponíveis',
+        text: 'Corporate Governance: Atuação em Boards. Corporate Governance: Liderança de Boards. Objectives Key Results. Liderança, Agilidade e Adaptabilidade. Transformação Digital Aplicada. Finanças para não Financeiros. Liderança Eficaz. Excelência Operacional. Exponential Business Administration. Planeamento Estratégico. Women´s Leadership Program.',
+      },
+      {
+        icon: 'https://edudigital.pt/home/images/Grupo_969.png',
+        title: 'Integração de cursos na sua plataforma',
+        text: 'A EDUdigital configura os cursos Udemy na sua plataforma eLearning, para aceder a mais de 180.000 cursos em inglês e 1.400 cursos (e a aumentar) em português, para que possua toda a formação num único local.',
+      },
+      {
+        icon: '	https://edudigital.pt/home/images/Grupo_958.png',
+        title: 'Conteúdos dos cursos Udemy',
+        text: 'Conteúdos com mais de 30 minutos de vídeo. Agregam ainda recursos e diversos tipos de atividades práticas. Os cursos incluem vídeos, slides e texto e estão divididos em unidades temáticas para fácil consolidação da aprendizagem.',
+      },
+    ],
+  },
 }
