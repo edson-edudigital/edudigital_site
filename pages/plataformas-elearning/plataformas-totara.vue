@@ -114,6 +114,8 @@
       :color="'#fff'"
       :title="'Vantagens da Plataforma'"
     />
+
+  <contactform />
   </div>
 </template>
 
@@ -121,6 +123,7 @@
 import Banner from '~/components/banner.vue'
 import SectiondubleCartoon from '~/components/sections/sectiondubleCartoon.vue'
 import Title from '~/components/elements/title.vue'
+import Contactform from '~/components/contactform.vue'
 import PlataformaseLearningController from '~/controllers/PlataformaseLearningController'
 import IconText from '~/components/elements/icon-text.vue'
 import { animeList } from '~/assets/js/animate'
@@ -134,6 +137,7 @@ export default {
     IconText,
     Section,
     VantagemServicos,
+    Contactform,
   },
 
   data() {
