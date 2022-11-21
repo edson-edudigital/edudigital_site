@@ -1,7 +1,7 @@
 export default {
   banner: {
     title: 'Nós acreditamos que a aprendizagem nunca acaba',
-    text: 'Na EDUdigital sabemos que a aprendizagem liberta o potencial de cada pessoa e de cada organização. É por isso que implementamos plataformas online e desenvolvemos conteúdos digitais para melhorar a igualdade entre as pessoas, favorecer o acesso a formação de qualidade e promover a aprendizagem ao longo da vida',
+    text: 'Na EDUdigital sabemos que a aprendizagem liberta o potencial de cada pessoa e de cada organização. É por isso que implementamos plataformas online e desenvolvemos conteúdos digitais para melhorar a igualdade entre as pessoas, favorecer o acesso a formação de qualidade e promover a aprendizagem ao longo da vida.',
     buttonText: 'Fale connosco',
   },
 
