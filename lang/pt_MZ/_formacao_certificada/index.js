@@ -1,8 +1,8 @@
 export default {
     banner: {
       title: 'Formação Certificada',
-      text: 'Ganhe tempo e dinheiro com cursos eLearning de catálogo e tenha o nosso apoio técnico-pedagógico, como profissionais experientes, para identificar os objetivos de eLearning, maximizar o potencial do seu projeto e acelerar a implementação.',
-      buttonText: 'Contate-nos',
+      text: 'Ganhe tempo e dinheiro com cursos eLearning de catálogo e tenha o nosso apoio técnico-pedagógico, como profissionais experientes, para identificar os objectivos de eLearning, maximizar o potencial do seu projecto e acelerar a implementação.',
+      buttonText: 'Contacte-nos',
     },
   
     catalog_elearning_courses: {
@@ -13,7 +13,7 @@ export default {
   
     live_training: {
       title: 'Live Training',
-      text: 'Adicione sessões em live training, aos seus cursos eLearning de catálogo. Em tempo real, pode frequentar as apresentações do formador, adquirindo mais prática. Alcance os mesmos resultados de uma formação presencial, a partir qualquer local com internet, participando ativamente na aula, interagindo com o formador e os restantes colegas.',
+      text: 'Adicione sessões em live training, aos seus cursos eLearning de catálogo. Em tempo real, pode frequentar as apresentações do formador, adquirindo mais prática. Alcance os mesmos resultados de uma formação presencial, a partir qualquer local com internet, participando activamente na aula, interagindo com o formador e os restantes colegas.',
     },
 
     cambridge_english_Training:{

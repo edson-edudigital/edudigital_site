@@ -190,7 +190,7 @@ export default Vue.extend({
         },
         {
           title: this.$translate().home.services.certified_training,
-          to: 'plataforma-elearning',
+          to: 'formacao-certificada',
           img: 'https://edudigital.pt/home/images/icone-edudigital-formacao-new-20210303-013x.png',
         },
         {

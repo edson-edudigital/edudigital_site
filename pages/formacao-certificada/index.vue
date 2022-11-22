@@ -1,7 +1,7 @@
 <template>
   <main>
     <banner
-      :title="$translate().formacao-certificada.banner.title"
+      :title="$translate().formacao_certificada.banner.title"
       :background-image="'https://edudigital.pt//images/top-plataformaseLearning%2020210318.png'"
       :button-action-text="$translate().formacao_certificada.banner.buttonText"
       :button-action-href="'/fale-connosco'"
@@ -91,9 +91,9 @@
       :flex-direction="'row-reverse'"
     >
       <template #text>
-        <Title :title="$translate.formacao_certificada.etrainers_lms_administrators_Courses.title" />
+        <Title :title="$translate().formacao_certificada.etrainers_lms_administrators_courses.title" />
         <p>
-          {{$translate.formacao_certificada.etrainers_lms_administrators_Courses.text}}
+          {{$translate().formacao_certificada.etrainers_lms_administrators_courses.text}}
         </p>
       </template>
     </SectiondubleCartoon>
@@ -103,15 +103,16 @@
 </template>
 
 <script>
-import PlataformaseLearningController from '../../controllers/PlataformaseLearningController'
+
 import { upDownAnimation } from '~/assets/js/animate'
 import banner from '~/components/banner.vue'
 import Contactform from '~/components/contactform.vue'
 import Section from '~/components/sections/section.vue'
 import SectiondubleCartoon from '~/components/sections/sectiondubleCartoon.vue'
 import Title from '~/components/elements/title.vue'
+
 export default {
-  components: { banner, Contactform, Section, SectiondubleCartoon, Title },
+  components: { banner, Contactform, Section, SectiondubleCartoon, Title},
 
   mounted() {},
   methods: {

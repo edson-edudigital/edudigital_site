@@ -2,6 +2,7 @@ import _contactform from './_contactform'
 import _curso_elearning_amedida from './_curso_elearning_amedida'
 import _elearning_plataforms from './_elearning_platforms'
 import _formacao_certificada from './_formacao_certificada'
+import _app_servicos_web from './_app_servicos_web'
 import _home from './_home'
 import _menus from './_menus'
 import _sobre_nos from './_sobre_nos'
@@ -13,5 +14,6 @@ export default {
   elearning_platform: _elearning_plataforms,
   curso_elearning_amedida: _curso_elearning_amedida,
   formacao_certificada: _formacao_certificada,
+  app_servicos_web: _app_servicos_web,
   sobre_nos: _sobre_nos
 }
