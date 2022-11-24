@@ -1,13 +1,13 @@
 <template>
   <main>
     <banner
-      :title="$translate().app_servicos_web.banner.title"
+      :title="$translate().apps_servicos_web.banner.title"
       :background-image="'https://edudigital.pt/images/img-top.png'"
-      :button-action-text="$translate().app_servicos_web.banner.buttonText"
-      @after-enter="animeCartoon"
+      :button-action-text="$translate().apps_servicos_web.banner.buttonText"
+      @after-enter="animeCartoon" 
     >
       <template #text>
-        {{$translate().app_servicos_web.banner.text}}
+        {{$translate().apps_servicos_web.banner.text}}
       </template>
       <template #cartoon>
         <img
@@ -37,9 +37,9 @@
       :color="'#fff'"
     >
       <template #text>
-        <Title :title="$translate().app_servicos_web.software_integration.title" />
+        <Title :title="$translate().apps_servicos_web.software_integration.title" />
         <p>
-          {{$translate().app_servicos_web.software_integration.text}}
+          {{$translate().apps_servicos_web.software_integration.text}}
         </p>
       </template>
     </SectiondubleCartoon>
@@ -52,9 +52,9 @@
       :color="'#616161'"
     >
       <template #text>
-        <Title :title="$translate().data_migration.title" />
+        <Title :title="$translate().apps_servicos_web.data_migration.title" />
         <p>
-          {{$translate().data_migration.text}}
+          {{$translate().apps_servicos_web.data_migration.text}}
         </p>
       </template>
     </SectiondubleCartoon>
@@ -67,9 +67,9 @@
       :color="'#fff'"
     >
       <template #text>
-        <Title :title="$translate().advanced_configuration.title" />
+        <Title :title="$translate().apps_servicos_web.advanced_configuration.title" />
         <p>
-          {{$translate().advanced_configuration.text}}
+          {{$translate().apps_servicos_web.advanced_configuration.text}}
         </p>
       </template>
     </SectiondubleCartoon>
@@ -82,9 +82,9 @@
       :color="'#616161'"
     >
       <template #text>
-        <Title :title="$translate().autentication_systems.title" />
+        <Title :title="$translate().apps_servicos_web.autentication_systems.title" />
         <p>
-          {{$translate().autentication_systems.text}}
+          {{$translate().apps_servicos_web.autentication_systems.text}}
         </p>
       </template>
     </SectiondubleCartoon>
@@ -97,9 +97,9 @@
       :color="'#fff'"
     >
       <template #text>
-        <Title :title="$translate().library_system.title" />
+        <Title :title="$translate().apps_servicos_web.library_system.title" />
         <p>
-          {{$translate().library_system.text}}
+          {{$translate().apps_servicos_web.library_system.text}}
         </p>
       </template>
     </SectiondubleCartoon>
