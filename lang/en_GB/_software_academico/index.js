@@ -1,6 +1,6 @@
 export default {
     banner: {
-      title: 'Academic Softwares',
+      title: 'Academic Softwars',
       text: 'Customized academic management software and anti-plagiarism systems that do exactly what your organization needs, with more reports and more indicators for better teaching quality. Have your organization properly structured pedagogically, administratively and financially, in a system with several expandable and integratable modules to meet your requirements.',
       buttonText: 'Contact us',
     },
