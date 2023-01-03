@@ -2,7 +2,7 @@ export default {
   banner: {
     title: 'Personalização de conteúdos eLearning, lado a lado consigo',
     text: 'Desde 2012 que criamos eLearning à medida para organizações em todo o mundo, desde instituições sem fins lucrativos até empresas multinacionais, para vários setores e indústrias. Qualquer que seja o seu projeto eLearning, nós podemos estar lado a lado consigo para o desenvolver. Desde um pedaço de microlearning até programas de formação mais globais e complexos, com milhares de pessoas.',
-    buttonText: 'Contacte-nos',
+    buttonText: 'Contate-nos',
   },
 
   customized_elearning: {

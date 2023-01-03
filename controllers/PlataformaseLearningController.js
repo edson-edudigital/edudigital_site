@@ -141,4 +141,29 @@ export default {
       },
     ],
   },
+  hostingGerido: {
+    servicosVantagens_hosting: [
+      {
+        icon: 'https://edudigital.pt/home/images/ConfiguraoSemProblemaDeHosting-01.png',
+        title: 'Configuração sem problema de hosting',
+        text: 'O alojamento em servidores pode ser uma fonte de problemas e perda de tempo, sobretudo se não for um especialista. Deixe a Cloud connosco, para se preocupar com o uso da plataforma.',
+      },
+      {
+        icon: '	https://edudigital.pt/home/images/Segurana_e_999Disponibilidade-01.png',
+        title: 'Segurança e 99,9% de disponibilidade',
+        text: 'Nós fazemos a manutenção dos nossos servidores e os updates periódicos das plataformas, para que a sua plataforma possa estar em segurança e com disponibilidades de 99,9% uptime.',
+      },
+      {
+        icon: 'https://edudigital.pt/home/images/Administraao_e_suporte_tecnico.png',
+        title: 'Administração e suporte técnico',
+        text: 'Damos suporte online 24h/7d e fazemos a sua administração de LMS, upload de conteúdos e gestão de utilizadores, para que obtenha os seus relatórios com facilidade.',
+      },
+      {
+        icon: 'https://edudigital.pt/home/images/Grupo_749.png',
+        title: 'Ponto de contacto e experiência',
+        text: 'Com mais de 90.000 utilizadores servidos pelo nosso hosting, que está desenhado especificamente para LMS, nós estamos em melhor posição para responder rapidamente a quaisquer questões que surjam.',
+      },
+    ],
+  },
 }
+

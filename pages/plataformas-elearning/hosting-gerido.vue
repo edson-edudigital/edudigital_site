@@ -38,7 +38,7 @@ export default {
   data() {
     return {
       vantagens:
-        PlataformaseLearningController.plataformasOpenSource.ServicosVantagens,
+        PlataformaseLearningController.hostingGerido.servicosVantagens_hosting,
     }
   },
 }

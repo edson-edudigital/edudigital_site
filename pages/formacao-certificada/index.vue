@@ -1,17 +1,14 @@
 <template>
   <main>
     <banner
-      :title="'Formação Certificada'"
+      :title="$translate().formacao_certificada.banner.title"
       :background-image="'https://edudigital.pt//images/top-plataformaseLearning%2020210318.png'"
-      :button-action-text="'Contact-nos'"
+      :button-action-text="$translate().formacao_certificada.banner.buttonText"
       :button-action-href="'/fale-connosco'"
       @after-enter="animeCartoon"
     >
       <template #text>
-        Ganhe tempo e dinheiro com cursos eLearning de catálogo e tenha o nosso
-        apoio técnico-pedagógico, como profissionais experientes, para
-        identificar os objetivos de eLearning, maximizar o potencial do seu
-        projeto e acelerar a implementação.
+        {{$translate().formacao_certificada.banner.text}}
       </template>
       <template #cartoon>
         <img
@@ -40,17 +37,15 @@
       style="color: #fff"
     >
       <template #text>
-        <Title :title="'Cursos eLearning de Catálogo'" />
+        <Title :title="$translate().formacao_certificada.catalog_elearning_courses.title" />
         <p>
-          Conteúdos de excelente qualidade, feitos por especialistas em cada
-          temática. Com opção de branding e validação de ecrãs pelo cliente. Com
-          implementação fácil em qualquer plataforma.
+          {{$translate().formacao_certificada.catalog_elearning_courses.text}}
         </p>
         <div>
           <NuxtLink
             class="btn btn-secondary"
             to="/formacao-certificada/cursos-elearning-catalogo"
-            >Conheça o catálogo</NuxtLink
+            >{{$translate().formacao_certificada.catalog_elearning_courses.buttonText}}</NuxtLink
           >
         </div>
       </template>
@@ -63,13 +58,9 @@
       :flex-direction="'row-reverse'"
     >
       <template #text>
-        <Title :title="'Live Training'" />
+        <Title :title="$translate().formacao_certificada.live_training.title" />
         <p>
-          Adicione sessões em live training, aos seus cursos eLearning de
-          catálogo. Em tempo real, pode frequentar as apresentações do formador,
-          adquirindo mais prática. Alcance os mesmos resultados de uma formação
-          presencial, a partir qualquer local com internet, participando
-          ativamente na aula, interagindo com o formador e os restantes colegas.
+          {{$translate().formacao_certificada.live_training.text}}
         </p>
       </template>
     </SectiondubleCartoon>
@@ -82,16 +73,13 @@
     >
       <template #text>
         <Title
-          :title="'Formação Inglês Cambridge e Português para Estrangeiros'"
+          :title="$translate().formacao_certificada.cambridge_english_Training.title"
         />
         <p>
-          Proporcione à sua empresa, formação de inglês online (ou português
-          online), com testes diagnóstico de nível, tutoria em live training com
-          as nossas formadoras, manuais de cada nível (A1 a C2), acessos online
-          à plataforma e à app agendamento, para marcação mensal das tutorias.
+          {{$translate().formacao_certificada.cambridge_english_Training.text}}
         </p>
         <div>
-          <NuxtLink class="btn btn-secondary" to="/">Saiba mais</NuxtLink>
+          <NuxtLink class="btn btn-secondary" to="/">{{$translate().formacao_certificada.cambridge_english_Training.buttonText}}</NuxtLink>
         </div>
       </template>
     </SectiondubleCartoon>
@@ -103,14 +91,9 @@
       :flex-direction="'row-reverse'"
     >
       <template #text>
-        <Title :title="'Cursos de eFormadores e Administradores de LMS'" />
+        <Title :title="$translate().formacao_certificada.etrainers_lms_administrators_courses.title" />
         <p>
-          Como especialistas em plataformas de eLearning, fazemos workshops
-          práticos para capacitar tecnicamente eFormadores e administradores de
-          plataformas eLearning. Fale connosco e preparamos a formação adaptada
-          ao perfil dos seus utilizadores: boas práticas de dinamizar a sua
-          formação online e os conhecimentos técnicos necessários para a
-          administração técnica da sua plataforma eLearning.
+          {{$translate().formacao_certificada.etrainers_lms_administrators_courses.text}}
         </p>
       </template>
     </SectiondubleCartoon>
@@ -120,15 +103,16 @@
 </template>
 
 <script>
-import PlataformaseLearningController from '../../controllers/PlataformaseLearningController'
+
 import { upDownAnimation } from '~/assets/js/animate'
 import banner from '~/components/banner.vue'
 import Contactform from '~/components/contactform.vue'
 import Section from '~/components/sections/section.vue'
 import SectiondubleCartoon from '~/components/sections/sectiondubleCartoon.vue'
 import Title from '~/components/elements/title.vue'
+
 export default {
-  components: { banner, Contactform, Section, SectiondubleCartoon, Title },
+  components: { banner, Contactform, Section, SectiondubleCartoon, Title},
 
   mounted() {},
   methods: {

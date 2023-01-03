@@ -149,6 +149,16 @@
                   }}</NuxtLink
                 >
               </li>
+              <li>
+                <NuxtLink
+                  class="menu link"
+                  to="/formacao-certificada/educacao-executiva-cursos-udemy"
+                  >{{
+                    $translate().menus._certified_training
+                      .pedagogical_consulting_training
+                  }}</NuxtLink
+                >
+              </li>
             </ul>
           </div>
         </li>

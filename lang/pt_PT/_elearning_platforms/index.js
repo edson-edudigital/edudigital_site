@@ -2,7 +2,7 @@ export default {
   banner: {
     title: 'Plataformas eLearning personalizadas',
     text: 'Inovadoras. Poderosas. E open-source. São as plataformas de eLearning que desenvolvemos há mais de 10 anos e em mais de 100 clientes pelo mundo. Implementamos as melhores opções de plataformas, num design à medida da sua organização de forma a garantir uma formação de qualidade.',
-    buttonText: 'Peça o seu Demo',
+    buttonText: 'Contate-nos',
   },
 
   open_source_platform: {

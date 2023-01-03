@@ -1,20 +1,14 @@
 <template>
   <main>
     <banner
-      :title="'Softwares Académicos'"
+      :title="$translate().software_academico.banner.title"
       :background-image="'https://edudigital.pt/images/bigstock-Group-Of-College-Students-With-361644217%20.png'"
-      :button-action-text="'Contact-nos'"
+      :button-action-text="$translate().software_academico.banner.buttonText"
       :button-action-href="'fale-connosco'"
       @after-enter="animeCartoon"
     >
       <template #text>
-        Softwares de gestão académica personalizados e sistemas anti-plágio que
-        fazem exatamente aquilo que a sua instituição precisa, com mais
-        relatórios e com mais indicadores para ter mais qualidade de ensino.
-        Tenha a sua organização devidamente estruturada na componente
-        pedagógica, componente administrativa e na componente financeira, num
-        sistema com vários módulos expansíveis e integráveis para responder às
-        suas necessidades.
+        {{$translate().software_academico.banner.text}}
       </template>
       <template #cartoon>
         <img
@@ -44,20 +38,12 @@
       :flex-direction="'row-reverse'"
     >
       <template #text>
-        <Title :title="'Sistema de Gestão Académica eSchooling'" />
+        <Title :title="$translate().software_academico.eSchooling_management_system.title" />
         <p>
-          O eSchooling é um software de gestão académica que permite gerir todos
-          os aspetos da sua instituição universitária ou escolar, facilitando o
-          registo de sumários, faltas, horários, notas, matrículas, planos
-          curriculares, certificados e permitindo visualizar toda a gestão
-          financeira, propinas, pagamentos por entidade-referência, sem esquecer
-          a obtenção de vários relatórios. Tudo isto, auxiliado através da App
-          mobile, garantindo aos professores e estudantes a rapidez e
-          simplicidade no acesso a todos os seus dados pedagógicos e
-          financeiros.
+          {{$translate().software_academico.eSchooling_management_system.text}}
         </p>
         <div>
-          <NuxtLink class="btn btn-secondary" to="/">Saiba mais</NuxtLink>
+          <NuxtLink class="btn btn-secondary" to="/">{{$translate().software_academico.eSchooling_management_system.buttonText}}</NuxtLink>
         </div>
       </template>
     </SectiondubleCartoon>
@@ -69,17 +55,13 @@
       :flex-direction="'row'"
     >
       <template #text>
-        <Title :title="'Sistema de Anti-Plágio Ouriginal'" />
+        <Title :title="$translate().software_academico.ouriginal_anti_plagiarism_system.title" />
         <p>
-          Realize a deteção e prevenção do plágio na sua instituição, com este
-          sistema que os nossos especialistas integram na sua plataforma de
-          eLearning. Professores e estudantes conseguirão fazer upload e
-          verificar se os trabalhos submetidos têm a qualidade que a sua
-          instituição exige.
+          {{$translate().software_academico.ouriginal_anti_plagiarism_system.text}}
         </p>
         <div>
           <NuxtLink class="btn btn-secondary" to="/fale-connosco"
-            >Agende a sua reunião</NuxtLink
+            >{{$translate().software_academico.ouriginal_anti_plagiarism_system.buttonText}}</NuxtLink
           >
         </div>
       </template>
