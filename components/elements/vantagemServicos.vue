@@ -26,6 +26,11 @@
           :icon="vant.icon"
         >
           {{ vant.text }}
+          {{ vant.text_1 }}<br>
+          {{ vant.text_2}}<br>
+          {{ vant.text_3 }}<br>
+          {{ vant.text_4 }}<br>
+          {{ vant.text_5 }}<br>
         </IconText>
       </div>
     </Section>
