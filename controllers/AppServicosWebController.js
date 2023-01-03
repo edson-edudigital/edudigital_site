@@ -3,7 +3,7 @@ export default {
     vantagens: [
       {
         icon: 'https://edudigital.pt/home/images/Automatizar_a_comunicao-01.png',
-        title: 'Automatizar~rrrrrr a comunicação',
+        title: 'Automatizar a comunicação',
         text: 'Promova a troca de dados entre outros softwares e o LMS, com uso de API, facilitando a partilha automática de informação, de modo simplificado.',
       },
       {
