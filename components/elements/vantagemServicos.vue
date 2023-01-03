@@ -9,7 +9,7 @@
 
     <Section
       :id="id + '-vantagens-content'"
-      :style="`margin-top:${30}px; color:${color}`"
+      :style="`margin-top:${40}px; color:${color}`"
       :no-padding="true"
       :content-justify="'start'"
       :should-anime="false"
