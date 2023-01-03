@@ -4,29 +4,43 @@ export default {
       {
         icon: 'https://edudigital.pt/home/images/Gesto_pedaggica-01-01.png',
         title: 'Gestão Pedagógica',
-        text:
-          '- Permite o registo de sumários;' +
-          '- Notas de turma;' +
-          '- Gestão de horários;' +
-          '- Planos curriculares;' +
+
+        text_1:
+          '- Permite o registo de sumários;',
+        text_2:
+          '- Notas de turma;', 
+        text_3: 
+          '- Gestão de horários;',
+        text_4:
+          '- Planos curriculares;',
+        text_5:
           '- Planificação de aulas e relatórios.',
       },
       {
         icon: 'https://edudigital.pt/home/images/Gesto_administrativa-01-01.png',
         title: 'Gestão Administrativa',
-        text:
-          '- Permite fazer a gestão de estudantes, professores e funcionários;' +
-          '- Realizar estatísticas;' +
+
+        text_1:
+          '- Permite fazer a gestão de estudantes, professores e funcionários;',
+        text_2:
+          '- Realizar estatísticas;', 
+        text_3: 
           '- Fazer a gestão de matrículas/renovações e fazer a integração com softwares externos.',
+   
       },
       {
         icon: 'https://edudigital.pt/home/images/Gesto_financeira-01-01.png',
         title: 'Gestão Financeira',
-        text:
-          '- Faz toda a faturação;' +
-          '- Gestão de artigos;' +
-          '- Permissões de caixa e emissão de mensalidades;' +
+     
+        text_1:
+          '- Faz toda a faturação;',
+        text_2:
+          '- Gestão de artigos;', 
+        text_3: 
+          '- Permissões de caixa e emissão de mensalidades;',
+        text_4:
           '- Multas e gestão de contas correntes.',
+
       },
       {
         icon: 'https://edudigital.pt/home/images/Grupo_749.png',
