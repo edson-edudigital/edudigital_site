@@ -36,7 +36,7 @@
        </div>
       </template>
     </SectiondubleCartoon>
-    <contactform />
+    
 
     <VantagemServicos
       :id="'integracao-migracao-dados-vantagens'"
@@ -45,6 +45,7 @@
       :color="'#fff'"
       :title="'Serviços e Vantagens'"
     />
+    <contactform />
    </main>
 </template>
 
