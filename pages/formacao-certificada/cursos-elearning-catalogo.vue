@@ -1,14 +1,14 @@
 <template>
   <main>
     <Banner
-    :title="$translate().formacao_certificada.banner.title2"
+    :title="$translate().formacao_certificada.banner.title1"
       :background-image="'https://edudigital.pt//images/top-plataformaseLearning%2020210318.png'"
-      :button-action-text="$translate().formacao_certificada.banner.buttonText2"
+      :button-action-text="$translate().formacao_certificada.banner.buttonText1"
       :button-action-href="'/fale-connosco'"
       :columns-template="'2fr 1fr'"
     >
       <template #text>
-        {{$translate().formacao_certificada.banner.text2}}
+        {{$translate().formacao_certificada.banner.text1}}
       </template>
     </Banner>
 
