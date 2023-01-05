@@ -2,17 +2,13 @@
   <div>
     <Banner
       :background-image="'	https://edudigital.pt/images/bigstock-Two-Smiling-Businessmen-Or-Pro-241216258%20.jpg'"
-      :title="'Produção eLearning personalizado'"
+      :title="$translate().curso_elearning_amedida.banner.title2"
       :columns-template="'2fr 1fr'"
-      :button-action-text="'Agenda a sua reunião'"
+      :button-action-text="$translate().curso_elearning_amedida.banner.buttonText1"
       :button-action-href="'/fale-connosco'"
     >
       <template #text>
-        Fazemos desenvolvimento de cursos de eLearning à medida, de A até Z. A
-        partir de conteúdos pedagógicos enviados por si ou concebidos pela nossa
-        equipa, adaptamos cada curso à sua organização, com interatividade,
-        conversão de formato presencial para online, com design da sua marca,
-        compatível com vários dispositivos e em formato SCORM.
+        {{ $translate().curso_elearning_amedida.banner.text2}}
       </template>
     </Banner>
 
@@ -24,16 +20,11 @@
       :color="'#616161'"
     >
       <template #text>
-        <Title :title="'Animações interativas e microlearning'" />
+        <Title
+          :title="$translate().curso_elearning_amedida.audiovisual_production.title1"
+        />
         <p>
-          Cada animação em motion graphics, cada curso com dinâmica de
-          competição/pontuação, exige sabermos qual o resultado que se quer
-          obter no final, num processo de colaboração com o cliente. Neste
-          processo temos de criar a ideia-chave, os storyboards para os vídeos
-          ou animações, os textos para os áudios, maximizando o feedback com o
-          cliente, desenvolvendo um “microlearning” ou uma
-          colaboração/competição que possa envolver os utilizadores da sua
-          empresa.
+          {{ $translate().curso_elearning_amedida.audiovisual_production.text1 }}
         </p>
       </template>
     </SectiondubleCartoon>

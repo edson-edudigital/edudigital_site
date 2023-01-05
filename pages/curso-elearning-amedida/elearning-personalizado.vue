@@ -2,17 +2,13 @@
   <div>
     <Banner
       :background-image="'	https://edudigital.pt/images/bigstock-Two-Smiling-Businessmen-Or-Pro-241216258%20.jpg'"
-      :title="'Produção eLearning personalizado'"
+      :title="$translate().curso_elearning_amedida.banner.title1"
       :columns-template="'2fr 1fr'"
-      :button-action-text="'Agenda a sua reunião'"
+      :button-action-text="$translate().curso_elearning_amedida.banner.buttonText1"
       :button-action-href="'/fale-connosco'"
     >
       <template #text>
-        Fazemos desenvolvimento de cursos de eLearning à medida, de A até Z. A
-        partir de conteúdos pedagógicos enviados por si ou concebidos pela nossa
-        equipa, adaptamos cada curso à sua organização, com interatividade,
-        conversão de formato presencial para online, com design da sua marca,
-        compatível com vários dispositivos e em formato SCORM.
+        {{ $translate().curso_elearning_amedida.banner.text1 }}
       </template>
     </Banner>
 
@@ -24,14 +20,11 @@
       :color="'#616161'"
     >
       <template #text>
-        <Title :title="'Design personalizado de cursos eLearning'" />
+        <Title
+          :title="$translate().curso_elearning_amedida.customized_elearning.title1"
+        />
         <p>
-          Cada curso à medida, exige uma entrega de sucesso e o nosso processo
-          de envolvimento com o cliente. Neste processo a que chamamos ADDIE,
-          temos de analisar o público e necessidades, fazer o design
-          instrucional, maximizar o feedback nas primeiras versões, desenvolver
-          um SCORM compatível com a sua plataforma e por fim, fazer uma
-          avaliação das reações.
+          {{ $translate().curso_elearning_amedida.customized_elearning.text1 }}
         </p>
       </template>
     </SectiondubleCartoon>

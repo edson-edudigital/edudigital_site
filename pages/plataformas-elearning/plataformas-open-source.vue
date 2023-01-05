@@ -3,17 +3,12 @@
     <banner
       :background-image="'https://edudigital.pt/images/bigstock-Two-Smiling-Businessmen-Or-Pro-241216258%20.jpg'"
       :columns-template="'3fr 1fr'"
-      :title="'Plataformas eLearning Open-source'"
-      :button-action-text="'Fale Connosco'"
+      :title="$translate().elearning_platform.banner.title1"
+      :button-action-text="$translate().elearning_platform.banner.buttonText1"
       :button-action-href="'/fale-connosco'"
     >
       <template #text>
-        Produza cursos eLearning, faça a gestão de utilizadores e monitorize o
-        desempenho de cada formando, tudo dentro da nossa plataforma eLearning
-        EDULearn, sem custos de subscrição e com total flexibilidade. Com os
-        nossos anos de experiência, entregamos-lhe um LMS personalizado, com
-        vários plug-ins, segurança de acessos, updates periódicos e suporte
-        técnico-pedagógico.
+        {{ $translate().elearning_platform.banner.text1 }}
       </template>
     </banner>
 
@@ -55,16 +50,17 @@
       :color="'#fff'"
     >
       <template #text>
-        <Title :title="'App Mobile'" />
+        <Title
+          :title="$translate().elearning_platform.open_source_platform.title1"
+        />
         <p>
-          A App móvel permite uma maior flexibilidade e acessibilidade na
-          formação à distância, pela qual os utilizadores podem aprender em
-          qualquer local, qualquer momento, interagir com o seu grupo e ficar a
-          par do seu progresso.
+          {{ $translate().elearning_platform.open_source_platform.text1 }}
         </p>
         <div>
           <NuxtLink class="btn btn-primary" to="/fale-connosco"
-            >Fale Connosco</NuxtLink
+            >{{
+              $translate().elearning_platform.open_source_platform.buttonText
+            }}</NuxtLink
           >
         </div>
       </template>
@@ -78,19 +74,17 @@
       :color="'var(--color-cinza)'"
     >
       <template #text>
-        <Title :title="'Formação LMS de Administradores e eFormadores'" />
+        <Title
+          :title="$translate().elearning_platform.open_source_platform.title2"
+        />
         <p>
-          Somos uma entidade certificada pela DGERT (normas da União Europeia)
-          para lecionar formação de eFormadores LMS ou Administradores de
-          Plataformas. Ambas as formações são para transferir conhecimento para
-          os clientes, seja para dinamizar pedagogicamente as formações online,
-          seus cursos, formandos, seja para configurar tecnicamente a
-          plataforma, sua estrutura, perfis, autenticações, entre outros. Fale
-          Connosco
+          {{ $translate().elearning_platform.open_source_platform.text2 }}
         </p>
         <div>
-          <NuxtLink class="btn btn-secondary" to="/fale-connosco"
-            >Fale Connosco</NuxtLink
+          <NuxtLink class="btn btn-primary" to="/fale-connosco"
+          >{{
+              $translate().elearning_platform.open_source_platform.buttonText
+            }}</NuxtLink
           >
         </div>
       </template>

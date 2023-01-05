@@ -1,17 +1,14 @@
 <template>
   <main>
     <Banner
-      :title="'Formação Certificada'"
+    :title="$translate().formacao_certificada.banner.title2"
       :background-image="'https://edudigital.pt//images/top-plataformaseLearning%2020210318.png'"
-      :button-action-text="'Peça seu catálogo'"
+      :button-action-text="$translate().formacao_certificada.banner.buttonText2"
       :button-action-href="'/fale-connosco'"
       :columns-template="'2fr 1fr'"
     >
       <template #text>
-        Ganhe tempo e dinheiro com cursos eLearning de catálogo e tenha o nosso
-        apoio técnico-pedagógico, como profissionais experientes, para
-        identificar os objetivos de eLearning, maximizar o potencial do seu
-        projeto e acelerar a implementação.
+        {{$translate().formacao_certificada.banner.text2}}
       </template>
     </Banner>
 

@@ -2,18 +2,13 @@
   <div>
     <Banner
       :background-image="'	https://edudigital.pt/images/bigstock-Two-Smiling-Businessmen-Or-Pro-241216258%20.jpg'"
-      :title="'Hosting Gerido & Cloud'"
+      :title="$translate().elearning_platform.banner.title3"
       :columns-template="'2fr 1fr'"
-      :button-action-text="'Agenda a sua reunião'"
+      :button-action-text="$translate().elearning_platform.banner.buttonText1"
       :button-action-href="'/fale-connosco'"
     >
       <template #text>
-        Utilizando a nossa plataforma LMS personalizada, com alojamento gerido,
-        servida por uma ligação internet de alta velocidade, a EDUdigital
-        entrega-lhe rapidamente a sua plataforma eLearning e os seus conteúdos
-        para formação dos utilizadores. Como especialistas em eLearning, temos a
-        experiência para facilitar a entrega imediata desta Cloud LMS, sem a
-        necessidade da sua aquisição.
+        {{ $translate().elearning_platform.banner.text3 }}
       </template>
     </Banner>
 

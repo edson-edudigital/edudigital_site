@@ -1,8 +1,17 @@
 export default {
     banner: {
       title: 'Certified Training',
+      title1: 'eLearning Courses Catalogue',
+      title2: 'Pedagogical Consulting & Training',
+      title3: 'Executive Education',
       text: 'Save time and money with catalogue eLearning courses and rely on our technical and pedagogical support, through experienced professionals, to identify eLearning objectives, maximize your projects potential and accelerate its implementation.',
+      text1: 'Ready-to-use eLearning courses for your eLearning platform. We work alongside you to provide the best content for your trainees, either through immediate access to the EDUdigital LMS or through course branding and installation on your LMS.',
+      text2: 'With our over 10 year experience in implementing eLearning technologies, pedagogical consultancy is an area that adds value and maximizes your eLearning project, whether it is platform installation or a set of online training courses.',
+      text3: 'EDUdigital is a partner of Universidade Nova de Lisboa - School of Business & Economics and offers training programs dedicated to the needs of executives. These are programs in different areas adapted to the objectives and activities of professionals and middle and senior managers of companies. Explore the 11 programs we have available.',
       buttonText: 'Contact us',
+      buttonText1: 'Ask for your catalogue',
+      buttonText2: 'Contact us',
+      buttonText3: 'Schedule your meeting',
     },
   
     catalog_elearning_courses: {

@@ -2,18 +2,16 @@
   <div>
     <Banner
       :background-image="'	https://edudigital.pt/images/bigstock-Two-Smiling-Businessmen-Or-Pro-241216258%20.jpg'"
-      :title="'Configurações avançadas & autenticação'"
+      
+      :title ="$translate().apps_servicos_web.banner.title2" 
       :columns-template="'2fr 1fr'"
-      :button-action-text="'Agenda a sua reunião'"
+      :button-action-text="$translate().apps_servicos_web.banner.buttonText1"
       :button-action-href="'/fale-connosco'"
     >
       <template #text>
-        Trabalhamos com plataformas open-source, flexíveis e que nos permitem
-        fazer configurações avançadas, adicionar vários plugins à medida das
-        suas necessidades de aprendizagem. Integrar um sistema de web conference
-        na plataforma, integrar sistemas de autenticação, rastrear desempenho,
-        criar planos de formação ou construir relatórios personalizados são
-        atividades que fazemos há vários anos e em vários setores de atividade.
+    
+          {{$translate().apps_servicos_web.banner.text2}}
+          
       </template>
     </Banner>
 
@@ -25,13 +23,9 @@
       :color="'#616161'"
     >
       <template #text>
-        <Title :title="'Integração de softwares'" />
+        <Title :title="$translate().apps_servicos_web.software_integration.title" />
         <p>
-          Explore as possibilidades sem limites das plataformas que instalamos,
-          com plugins à medida, configurações expansíveis e que lhe entregam
-          formação eficaz, com planos de formação, com estruturas hierárquicas,
-          com gestão da formação presencial, com relatórios e dezenas de outras
-          ferramentas que melhoram a sua aprendizagem.
+          {{$translate().apps_servicos_web.advanced_configuration.text2}}
         </p>
       </template>
     </SectiondubleCartoon>
@@ -54,12 +48,7 @@
       <template #text>
         <Title :title="'Sistemas de autenticação'" />
         <p>
-          As configurações avançadas de autenticação permitem ao utilizador
-          entrar nas plataformas de eLearning sem repetir diariamente o mesmo
-          processo de inserir logins e passwords. O trabalho dos nossos técnicos
-          é desenvolver o método de autenticação que melhor se ajusta à sua
-          situação e que facilita o acesso a partir de qualquer lado e qualquer
-          dispositivo..
+          {{$translate().apps_servicos_web.autentication_systems.text2}}
         </p>
       </template>
     </SectiondubleCartoon>
