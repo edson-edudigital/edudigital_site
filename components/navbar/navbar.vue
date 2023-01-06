@@ -155,7 +155,7 @@
                   to="/formacao-certificada/educacao-executiva-cursos-udemy"
                   >{{
                     $translate().menus._certified_training
-                      .pedagogical_consulting_training
+                      .executive_education_udemy_course
                   }}</NuxtLink
                 >
               </li>

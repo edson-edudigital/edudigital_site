@@ -7,8 +7,8 @@ export default {
     text1: 'Fazemos desenvolvimento de cursos de eLearning à medida, de A até Z. A partir de conteúdos pedagógicos enviados por si ou concebidos pela nossa equipa, adaptamos cada curso à sua organização, com interatividade, conversão de formato presencial para online, com design da sua marca, compatível com vários dispositivos e em formato SCORM.',
     text2: 'Produzimos animações em motion graphics e cursos online baseados em dinâmicas de jogo, mais complexos, para clientes que desejam eLearning num nível mais acima, com gravações vídeo, com animações microlearning ou formatos de gamification, para uma aprendizagem de futuro.',
     buttonText: 'Contate-nos',
-    buttonText1: 'Agenda a sua reunião',
-    buttonText2: 'Agenda a sua reunião',
+    buttonText1: 'Agende a sua reunião',
+    buttonText2: 'Agende a sua reunião',
   },
 
   customized_elearning: {

@@ -4,7 +4,7 @@
       :background-image="'	https://edudigital.pt/images/bigstock-Two-Smiling-Businessmen-Or-Pro-241216258%20.jpg'"
       :title="$translate().elearning_platform.banner.title3"
       :columns-template="'2fr 1fr'"
-      :button-action-text="$translate().elearning_platform.banner.buttonText1"
+      :button-action-text="$translate().elearning_platform.banner.buttonText2"
       :button-action-href="'/fale-connosco'"
     >
       <template #text>

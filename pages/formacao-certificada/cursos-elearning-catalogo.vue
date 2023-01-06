@@ -26,21 +26,33 @@
         </Catalogo>
       </div>
     </Section>
+
+    <VantagemServicos
+        :id="'cursos-elearning-catalogo-servicos-vantagens'"
+        :vantagens="ServicosVantagens"
+        :background="'#D35640'"
+        :color="'#fff'"
+        :title="'Serviços e Vantagens'"
+    />
+      <Contactform />
   </main>
 </template>
 
 <script>
 import Catalogo from '../../components/elements/catalogo.vue'
+import VantagemServicos from '~/components/elements/vantagemServicos.vue'
 import Section from '~/components/sections/section.vue'
 import Title from '~/components/elements/title.vue'
 import FormacaoCertificadaController from '~/controllers/FormacaoCertificadaController'
 
 export default {
-  components: { Section, Title, Catalogo },
+  components: { Section, Title, Catalogo, VantagemServicos },
   data() {
     return {
       catalogos: FormacaoCertificadaController.cursoElearningCatalogo.catalogos,
+      ServicosVantagens: FormacaoCertificadaController.cursoElearningCatalogo.ServicosVantagens,
     }
+    
   },
 }
 </script>

@@ -54,12 +54,12 @@
           :title="$translate().elearning_platform.open_source_platform.title1"
         />
         <p>
-          {{ $translate().elearning_platform.open_source_platform.text1 }}
+          {{ $translate().elearning_platform.open_source_platform.text2 }}
         </p>
         <div>
           <NuxtLink class="btn btn-primary" to="/fale-connosco"
             >{{
-              $translate().elearning_platform.open_source_platform.buttonText
+              $translate().elearning_platform.open_source_platform.button_action_text
             }}</NuxtLink
           >
         </div>
@@ -78,12 +78,12 @@
           :title="$translate().elearning_platform.open_source_platform.title2"
         />
         <p>
-          {{ $translate().elearning_platform.open_source_platform.text2 }}
+          {{ $translate().elearning_platform.open_source_platform.text1 }}
         </p>
         <div>
           <NuxtLink class="btn btn-primary" to="/fale-connosco"
           >{{
-              $translate().elearning_platform.open_source_platform.buttonText
+              $translate().elearning_platform.open_source_platform.button_action_text
             }}</NuxtLink
           >
         </div>

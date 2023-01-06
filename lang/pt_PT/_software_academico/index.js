@@ -3,6 +3,9 @@ export default {
       title: 'Softwares Académicos',
       text: 'Softwares de gestão académica personalizados e sistemas anti-plágio que fazem exatamente aquilo que a sua instituição precisa, com mais relatórios e com mais indicadores para ter mais qualidade de ensino. Tenha a sua organização devidamente estruturada na componente pedagógica, componente administrativa e na componente financeira, num sistema com vários módulos expansíveis e integráveis para responder às suas necessidades.',
       buttonText: 'Contate-nos',
+      title1: 'Sistema de Gestão Académica eSchooling',
+      text1:'Aposte numa plataforma de gestão académica criada a pensar nos professores e estudantes, com acesso fácil de qualquer dispositivo, que tem desde o registo de sumários até aos planos curriculares de curso; desde os horários à gestão das matrículas; desde os pagamentos online até ao registo de notas.',
+      buttonText1:'Agende a sua reunião',
     },
   
     eSchooling_management_system: {

@@ -35,4 +35,9 @@ export default {
         title: 'Cursos de eFormadores e Administradores de LMS',
         text: 'Como especialistas em plataformas de eLearning, fazemos workshops práticos para capacitar tecnicamente eFormadores e administradores de plataformas eLearning. Fale connosco e preparamos a formação adaptada ao perfil dos seus utilizadores: boas práticas de dinamizar a sua formação online e os conhecimentos técnicos necessários para a administração técnica da sua plataforma eLearning.',
     },
+
+    cursos_udemy:{
+      title:'Cursos Udemy',
+      text:'A EDUdigital é parceira oficial da Udemy Business; disponibiliza e integra em plataformas, mais de 183.000 cursos produzidos por especialistas, sobre assuntos técnicos e comportamentais. Os cursos da Udemy são projetados para especializar formandos, aumentar a produtividade e dar competências técnicas em áreas de conhecimento críticas.',
+    },
   }

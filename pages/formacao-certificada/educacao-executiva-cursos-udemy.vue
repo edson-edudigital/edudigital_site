@@ -20,13 +20,9 @@
         :color="'#616161'"
       >
         <template #text>
-          <Title :title="'Cursos Udemy'" />
+          <Title :title="$translate().formacao_certificada.cursos_udemy.title" />
           <p>
-            A EDUdigital é parceira oficial da Udemy Business; disponibiliza e integra em 
-            plataformas, mais de 183.000 cursos produzidos por especialistas, sobre assuntos 
-            técnicos e comportamentais. Os cursos da Udemy são projetados para especializar 
-            formandos, aumentar a produtividade e dar competências técnicas em áreas de 
-            conhecimento críticas.
+            {{$translate().formacao_certificada.cursos_udemy.text}}
           </p>
         </template>
       </SectiondubleCartoon>

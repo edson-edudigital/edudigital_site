@@ -31,13 +31,13 @@ export default {
     advanced_configuration: {
         title: 'Configurações Avançadas',
         text: 'Se pretende que a sua plataforma eLearning tenha funcionalidades avançadas e execute tarefas que não são padrões nas plataformas Totara ou Open-source, nós temos o conhecimento técnico e fazemos a programação para transformar a sua ideia em ferramentas para melhorar a sua experiência de aprendizagem. Desde a integração de sistemas de web conference no LMS até construção de relatórios, desde criação de audiências até monitorização de assiduidade.',
+        text2: 'Explore as possibilidades sem limites das plataformas que instalamos, com plugins à medida, configurações expansíveis e que lhe entregam formação eficaz, com planos de formação, com estruturas hierárquicas, com gestão da formação presencial, com relatórios e dezenas de outras ferramentas que melhoram a sua aprendizagem.',
         text1:'Trabalhamos com plataformas open-source, flexíveis e que nos permitem fazer configurações avançadas, adicionar vários plugins à medida dassuas necessidades de aprendizagem. Integrar um sistema de web conference na plataforma, integrar sistemas de autenticação, rastrear desempenho, criar planos de formação ou construir relatórios personalizados são atividades que fazemos há vários anos e em vários setores de atividade.'
     },
 
     autentication_systems: {
-        title: 'Configurações avançadas',
-        text1: 'As configurações avançadas de autenticação permitem ao utilizador entrar nas plataformas de eLearning sem repetir diariamente o mesmo processo de inserir logins e passwords. O trabalho dos nossos técnicos é desenvolver o método de autenticação que melhor se ajusta à sua situação e que facilita o acesso a partir de qualquer lado e qualquer dispositivo..',
-        text: 'Explore as possibilidades sem limites das plataformas que instalamos, com plugins à medida, configurações expansíveis e que lhe entregam formação eficaz, com planos de formação, com estruturas hierárquicas, com gestão da formação presencial, com relatórios e dezenas de outras ferramentas que melhoram a sua aprendizagem.Nós facilitamos a forma com os utilizadores fazem o login nas plataformas. A autenticação é o processo que permite ao utilizador entrar na plataforma de eLearning e existem vários métodos para autenticação de utilizadores. O nosso trabalho é encontrar o melhor método de autenticação avançada que se ajuste à sua situação e que facilite o login a partir de qualquer lado.',
+        title: 'Sistemas de autenticação',
+        text1: 'As configurações avançadas de autenticação permitem ao utilizador entrar nas plataformas de eLearning sem repetir diariamente o mesmo processo de inserir logins e passwords. O trabalho dos nossos técnicos é desenvolver o método de autenticação que melhor se ajusta à sua situação e que facilita o acesso a partir de qualquer lado e qualquer dispositivo.',
     },
 
     library_system: {

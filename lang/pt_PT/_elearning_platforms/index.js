@@ -9,14 +9,19 @@ export default {
     text1: 'Produza cursos eLearning, faça a gestão de utilizadores e monitorize o desempenho de cada formando, tudo dentro da nossa plataforma eLearning EDULearn, sem custos de subscrição e com total flexibilidade. Com os nossos anos de experiência, entregamos-lhe um LMS personalizado, com vários plug-ins, segurança de acessos, updates periódicos e suporte técnico-pedagógico.',
     text3: 'Utilizando a nossa plataforma LMS personalizada, com alojamento gerido, servida por uma ligação internet de alta velocidade, a EDUdigital entrega-lhe rapidamente a sua plataforma eLearning e os seus conteúdos para formação dos utilizadores. Como especialistas em eLearning, temos a experiência para facilitar a entrega imediata desta Cloud LMS, sem a necessidade da sua aquisição.',
     buttonText: 'Contate-nos',
-    buttonText1: 'Agenda a sua reunião',
+    buttonText1: 'Fale Connosco',
+    buttonText2:'Agende a sua reunião',
   },
 
   open_source_platform: {
     title: 'Plataformas Open-source',
+    title1: 'App Mobile',
+    title2: 'Formação LMS de Administradores e eFormadores',
     text: 'A sua organização necessita que as pessoas aprendam o que é fundamental na sua área e tenham os relatórios da formação disponíveis. O nosso Learning Management System (LMS) dá-lhe a liberdade de ter um conjunto de serviços que o tornam único, destacando-se pela sua flexibilidade e possibilidades de personalização.',
     text1: 'Somos uma entidade certificada pela DGERT (normas da União Europeia) para lecionar formação de eFormadores LMS ou Administradores de Plataformas. Ambas as formações são para transferir conhecimento para os clientes, seja para dinamizar pedagogicamente as formações online, seus cursos, formandos, seja para configurar tecnicamente a plataforma, sua estrutura, perfis, autenticações, entre outros. Fale Connosco',
+    text2:'A App móvel permite uma maior flexibilidade e acessibilidade na formação à distância, pela qual os utilizadores podem aprender em qualquer local, qualquer momento, interagir com o seu grupo e ficar a par do seu progresso.',
     buttonText: 'Saiba mais',
+    button_action_text: 'Fale Connosco',
   },
 
   totara_platforms: {

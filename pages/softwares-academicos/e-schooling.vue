@@ -26,9 +26,7 @@
       :vantagens="vantagens"
       :background="'#fff'"
       :color="'#616161'"
-      :title="$translate().software_academico.eSchooling.title"
-
-   
+      :title="'Serviços e Vantagens'"  
     />
 
     <Contactform />
@@ -39,7 +37,6 @@
 import VantagemServicos from '~/components/elements/vantagemServicos.vue'
 import Contactform from '~/components/contactform.vue'
 import SoftwareAcademicoController from '~/controllers/SoftwareAcademicoController'
-//import banner from '~/components/banner.vue'
 export default {
   components: { VantagemServicos, Contactform },
   data() {

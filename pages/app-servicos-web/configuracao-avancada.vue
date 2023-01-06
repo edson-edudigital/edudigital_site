@@ -1,11 +1,11 @@
 <template>
   <div>
     <Banner
-      :background-image="'	https://edudigital.pt/images/bigstock-Two-Smiling-Businessmen-Or-Pro-241216258%20.jpg'"
+      :background-image="'https://edudigital.pt/images/bigstock-Two-Smiling-Businessmen-Or-Pro-241216258%20.jpg'"
       
       :title ="$translate().apps_servicos_web.banner.title2" 
       :columns-template="'2fr 1fr'"
-      :button-action-text="$translate().apps_servicos_web.banner.buttonText1"
+      :button-action-text="$translate().apps_servicos_web.banner.button_action_text"
       :button-action-href="'/fale-connosco'"
     >
       <template #text>
@@ -23,7 +23,7 @@
       :color="'#616161'"
     >
       <template #text>
-        <Title :title="$translate().apps_servicos_web.software_integration.title" />
+        <Title :title="$translate().apps_servicos_web.advanced_configuration.title" />
         <p>
           {{$translate().apps_servicos_web.advanced_configuration.text2}}
         </p>
@@ -46,9 +46,9 @@
       :color="'#616161'"
     >
       <template #text>
-        <Title :title="'Sistemas de autenticação'" />
+        <Title :title="$translate().apps_servicos_web.autentication_systems.title" />
         <p>
-          {{$translate().apps_servicos_web.autentication_systems.text2}}
+          {{$translate().apps_servicos_web.autentication_systems.text1}}
         </p>
       </template>
     </SectiondubleCartoon>

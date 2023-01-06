@@ -48,24 +48,7 @@
       </template>
     </SectiondubleCartoon>
 
-    <SectiondubleCartoon
-      :id="'plataformas-elearning-totara'"
-      :img="'https://edudigital.pt/home/images/xyz3.png'"
-      :background="'#fff'"
-      :flex-direction="'row'"
-    >
-      <template #text>
-        <Title :title="$translate().software_academico.ouriginal_anti_plagiarism_system.title" />
-        <p>
-          {{$translate().software_academico.ouriginal_anti_plagiarism_system.text}}
-        </p>
-        <div>
-          <NuxtLink class="btn btn-secondary" to="/fale-connosco"
-            >{{$translate().software_academico.ouriginal_anti_plagiarism_system.buttonText}}</NuxtLink
-          >
-        </div>
-      </template>
-    </SectiondubleCartoon>
+    
 
     <contactform />
   </main>

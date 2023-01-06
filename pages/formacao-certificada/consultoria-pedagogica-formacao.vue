@@ -19,6 +19,8 @@
       :color="'#fff'"
       :title="'Serviços e Vantagens'"
     />
+
+    <Contactform />
   </main>
 </template>
 
