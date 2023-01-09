@@ -145,7 +145,7 @@
         srcset=""
       />
     </Section>
-
+    <carousel/>
     <Contactform />
   </div>
 </template>
@@ -153,7 +153,7 @@
 <script>
 import Vue from 'vue'
 import banner from '~/components/banner.vue'
-
+import carousel from '~/components/carousel.vue'
 import Section from '~/components/sections/section.vue'
 import Contactform from '~/components/contactform.vue'
 import Title from '~/components/elements/title.vue'
@@ -169,6 +169,7 @@ export default Vue.extend({
     banner,
     Section,
     Contactform,
+    carousel,
     Title,
     Icon,
     Sectionduble,

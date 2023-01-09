@@ -219,6 +219,7 @@
                   }}</NuxtLink
                 >
               </li>
+              <!--
               <li>
                 <NuxtLink
                   class="menu link"
@@ -227,7 +228,7 @@
                     $translate().menus._academic_software.anti_plagiarism_sytem
                   }}</NuxtLink
                 >
-              </li>
+              </li>-->
             </ul>
           </div>
         </li>

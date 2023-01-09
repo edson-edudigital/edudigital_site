@@ -22,7 +22,7 @@
       :color="'#616161'"
     >
       <template #text>
-        <Title :title="$translate().apps_servicos_web.software_integration.title" />
+        <Title :title="$translate().apps_servicos_web.software_integration.title1" />
         <p>
           {{$translate().apps_servicos_web.software_integration.text1}}
         </p>

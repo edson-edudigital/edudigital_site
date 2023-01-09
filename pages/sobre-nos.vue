@@ -117,9 +117,9 @@
       </div>
     </Section>
 
-    <!-- <Section :id="'sobre-nos-parceiros-carousel'">
+    <Section :id="'sobre-nos-parceiros-carousel'">
       <Carousel />
-    </Section> -->
+    </Section> 
 
     <Section
       :id="'sobre-nos-nossa-experiencia'"

@@ -20,9 +20,9 @@
       :color="'#616161'"
     >
       <template #text>
-        <Title :title="$translate().apps_servicos_web.library_system.title" />
+        <Title :title="$translate().apps_servicos_web.library_system.title1" />
         <p>
-          {{$translate().apps_servicos_web.library_system.text}}
+          {{$translate().apps_servicos_web.library_system.text1}}
         </p>
         <div>
           <NuxtLink
