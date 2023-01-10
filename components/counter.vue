@@ -19,18 +19,18 @@ export default {
       type: String,
       required: true,
       default: 'title',
-    },
+    },/*
     val: {
       type: Number,
       required: true,
-    },
+    },*/
   },
-
+/*
   data() {
     return {
       counter: this.val,
     }
-  },
+  },*/
 
   mounted() {
     this.onChange()
@@ -38,7 +38,7 @@ export default {
 
   methods: {
     onChange() {
-      animeNumber(this.$refs.counter, this.val)
+      animeNumber(this.$refs.counter)
     },
   },
 }

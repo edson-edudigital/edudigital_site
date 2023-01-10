@@ -45,15 +45,30 @@ export default {
     our_experience:{
         title:"A nossa experiência",
         text:"Já fazemos isto há algum tempo e a nossa equipa de especialistas cria conteúdos e soluções tecnológicas que envolvem e dão competências aos nossos formandos espalhados pelo mundo inteiro, incluindo com o nosso suporte técnico e pedagógico.",
-        active_users: "utilizadores ativos",
-        customers_world: "lientes pelo mundo",
-        online_platforms: "plataformas online"
+        active_users: "+ 90.0000 utilizadores ativos",
+        customers_world: "+ 100 clientes pelo mundo",
+        online_platforms: "+ 80 plataformas online"
 
     },
 
     social_responsibility:{
         title: "Responsabilidade Social",
-        text: "Na EDUdigital, acreditamos que devemos retribuir às organizações sem fins lucrativos e às pessoas mais carenciadas, aquilo que a própria sociedade nos dá, num dinamismo de retribuição pelo trabalho que temos, pelos projetos que a nossa equipa desempenha e que geram valor acrescentado para pessoas que trabalham connosco, parceiros e fornecedores, nos vários mercados onde atuamos. Contribuímos para projetos de solidariedade, causas sociais ou educativas, nomeadamente para entidades sem fins lucrativos que apoiam pessoas de diferentes faixas etárias em vários em vias de desenvolvimento, sobretudo África."
+        text: "Na EDUdigital, acreditamos que devemos retribuir às organizações sem fins lucrativos e às pessoas mais carenciadas, aquilo que a própria sociedade nos dá, num dinamismo de retribuição pelo trabalho que temos, pelos projetos que a nossa equipa desempenha e que geram valor acrescentado para pessoas que trabalham connosco, parceiros e fornecedores, nos vários mercados onde atuamos. Contribuímos para projetos de solidariedade, causas sociais ou educativas, nomeadamente para entidades sem fins lucrativos que apoiam pessoas de diferentes faixas etárias em vários em vias de desenvolvimento, sobretudo África.",
+        nome1:"AdGentes",
+        pais1:"Portugal",
+        entidade1:"Organização Não Governamental para o Desenvolvimento",
+        apoio1:"Apadrinhamento de estudantes do ensino secundário em Moçambique, através de apoio de bolsas de estudo.",
+        nome2:"Gota a Gota",
+        pais2:"Portugal",
+        entidade2:"Grupo Paroquial de Apoio Alimentar",
+        apoio2:"Fornecimento de cabazes alimentares a pessoas com dificuldades financeiras na zona de Sintra.",
+        nome3:"Obra Padre Gregório",
+        pais3:"Portugal",
+        entidade3:"Instituição Particular de Solidariedade Social",
+        apoio3:"Alojamento e estudos de jovens e crianças, que por vários motivos estão impedidas de estar com a família, na zona de Sintra."
+
+    
+    
     }
 
 }

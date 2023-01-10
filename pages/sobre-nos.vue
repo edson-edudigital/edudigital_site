@@ -140,9 +140,13 @@
             style="width: 80%"
             class="d-flex justify-between experiencia-numbers"
           >
-            <Counter :title="$translate().sobre_nos.our_experience.active_users" :val="90000" />
-            <Counter :title="$translate().sobre_nos.our_experience.customers_world" :val="100" />
-            <Counter :title="$translate().sobre_nos.our_experience.online_platforms" :val="80" />
+          <!-- em baixo no counter
+          :val="90000"
+          :val="100"
+          :val="80"-->
+            <Counter :title="$translate().sobre_nos.our_experience.active_users"/>
+            <Counter :title="$translate().sobre_nos.our_experience.customers_world"/>
+            <Counter :title="$translate().sobre_nos.our_experience.online_platforms"/>
           </div>
         </div>
       </div>
@@ -165,27 +169,28 @@
 
         <div class="d-flex justify-between wrap">
           <Responsabilidade
-            :nome="'EDUdigital'"
-            :regiao="'Portugal'"
-            :entidade="'Organização Não Governamental para Desenvolvimento'"
-            :apoio="'Apadrinhamento de estudantes do ensino secundário em Moçambique, através de apoio de bolsas de estudo.'"
+            :nome="$translate().sobre_nos.social_responsibility.nome1"
+            :regiao="$translate().sobre_nos.social_responsibility.pais1"
+            :entidade="$translate().sobre_nos.social_responsibility.entidade1"
+            :apoio="$translate().sobre_nos.social_responsibility.apoio1"
           />
           <Responsabilidade
-            :nome="'EDUdigital'"
-            :regiao="'Portugal'"
-            :entidade="'Organização Não Governamental para Desenvolvimento'"
-            :apoio="'Apadrinhamento de estudantes do ensino secundário em Moçambique, através de apoio de bolsas de estudo.'"
+            :nome="$translate().sobre_nos.social_responsibility.nome2"
+            :regiao="$translate().sobre_nos.social_responsibility.pais2"
+            :entidade="$translate().sobre_nos.social_responsibility.entidade2"
+            :apoio="$translate().sobre_nos.social_responsibility.apoio2"
           />
           <Responsabilidade
-            :nome="'EDUdigital'"
-            :regiao="'Portugal'"
-            :entidade="'Organização Não Governamental para Desenvolvimento'"
-            :apoio="'Apadrinhamento de estudantes do ensino secundário em Moçambique, através de apoio de bolsas de estudo.'"
+            :nome="$translate().sobre_nos.social_responsibility.nome3"
+            :regiao="$translate().sobre_nos.social_responsibility.pais3"
+            :entidade="$translate().sobre_nos.social_responsibility.entidade3"
+            :apoio="$translate().sobre_nos.social_responsibility.apoio3"
           />
         </div>
       </div>
     </Section>
 
+    <Contactform />
     <!-- <Sectionduble
       :id="'sobre-nos-recrutamento'"
       :img="'https://edudigital.pt/home/images/Recrutamento.png'"
