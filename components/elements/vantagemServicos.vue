@@ -9,7 +9,7 @@
 
     <Section
       :id="id + '-vantagens-content'"
-      :style="`margin-top:${30}px; color:${color}`"
+      :style="`margin-top:${40}px; color:${color}`"
       :no-padding="true"
       :content-justify="'start'"
       :should-anime="false"
@@ -26,6 +26,11 @@
           :icon="vant.icon"
         >
           {{ vant.text }}
+          {{ vant.text_1 }}<br>
+          {{ vant.text_2}}<br>
+          {{ vant.text_3 }}<br>
+          {{ vant.text_4 }}<br>
+          {{ vant.text_5 }}<br>
         </IconText>
       </div>
     </Section>

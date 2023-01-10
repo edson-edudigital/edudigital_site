@@ -1,17 +1,14 @@
 <template>
-  <div>
+  <main>
     <Banner
       :background-image="'	https://edudigital.pt/images/bigstock-Two-Smiling-Businessmen-Or-Pro-241216258%20.jpg'"
-      :title="'Sistema eLibrary'"
+      :title="$translate().apps_servicos_web.banner.title3"
       :columns-template="'2fr 1fr'"
-      :button-action-text="'Agenda a sua reunião'"
+      :button-action-text="$translate().apps_servicos_web.banner.button_action_text"
       :button-action-href="'/fale-connosco'"
     >
       <template #text>
-        ntegre na sua plataforma de eLearning, uma biblioteca online que
-        disponibiliza eBooks e audioBooks com mais de 1700 títulos, de várias
-        áreas de conhecimento, e acessível a partir de qualquer lado e qualquer
-        dispositivo.
+        {{$translate().apps_servicos_web.banner.text3}}
       </template>
     </Banner>
 
@@ -23,16 +20,23 @@
       :color="'#616161'"
     >
       <template #text>
-        <Title :title="'Biblioteca digital, integrada no LMS'" />
+        <Title :title="$translate().apps_servicos_web.library_system.title1" />
         <p>
-          Esta biblioteca digital com mais de 1700 eBooks e audioBooks, fornece
-          pequenos pedaços de aprendizagem, práticos, com até 2 horas de leitura
-          ou com palestras de especialistas até 60 minutos, desde temas como
-          trabalho remoto até desenvolvimento pessoal, desde cursos
-          comportamentais até produtividade.
+          {{$translate().apps_servicos_web.library_system.text1}}
         </p>
+        <div>
+          <NuxtLink
+            to="/curso-elearning-amedida/motion-gamification"
+            class="btn btn-secondary"
+            >{{
+              $translate().curso_elearning_amedida.audiovisual_production
+                .buttonText
+            }}</NuxtLink
+          >
+       </div>
       </template>
     </SectiondubleCartoon>
+    
 
     <VantagemServicos
       :id="'integracao-migracao-dados-vantagens'"
@@ -41,9 +45,8 @@
       :color="'#fff'"
       :title="'Serviços e Vantagens'"
     />
-
-    <Contactform />
-  </div>
+    <contactform />
+   </main>
 </template>
 
 <script>

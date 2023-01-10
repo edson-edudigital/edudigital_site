@@ -1,17 +1,14 @@
 <template>
   <main>
     <Banner
-      :title="'Formação Certificada'"
+    :title="$translate().formacao_certificada.banner.title1"
       :background-image="'https://edudigital.pt//images/top-plataformaseLearning%2020210318.png'"
-      :button-action-text="'Peça seu catálogo'"
+      :button-action-text="$translate().formacao_certificada.banner.buttonText1"
       :button-action-href="'/fale-connosco'"
       :columns-template="'2fr 1fr'"
     >
       <template #text>
-        Ganhe tempo e dinheiro com cursos eLearning de catálogo e tenha o nosso
-        apoio técnico-pedagógico, como profissionais experientes, para
-        identificar os objetivos de eLearning, maximizar o potencial do seu
-        projeto e acelerar a implementação.
+        {{$translate().formacao_certificada.banner.text1}}
       </template>
     </Banner>
 
@@ -29,21 +26,33 @@
         </Catalogo>
       </div>
     </Section>
+
+    <VantagemServicos
+        :id="'cursos-elearning-catalogo-servicos-vantagens'"
+        :vantagens="ServicosVantagens"
+        :background="'#D35640'"
+        :color="'#fff'"
+        :title="'Serviços e Vantagens'"
+    />
+      <Contactform />
   </main>
 </template>
 
 <script>
 import Catalogo from '../../components/elements/catalogo.vue'
+import VantagemServicos from '~/components/elements/vantagemServicos.vue'
 import Section from '~/components/sections/section.vue'
 import Title from '~/components/elements/title.vue'
 import FormacaoCertificadaController from '~/controllers/FormacaoCertificadaController'
 
 export default {
-  components: { Section, Title, Catalogo },
+  components: { Section, Title, Catalogo, VantagemServicos },
   data() {
     return {
       catalogos: FormacaoCertificadaController.cursoElearningCatalogo.catalogos,
+      ServicosVantagens: FormacaoCertificadaController.cursoElearningCatalogo.ServicosVantagens,
     }
+    
   },
 }
 </script>

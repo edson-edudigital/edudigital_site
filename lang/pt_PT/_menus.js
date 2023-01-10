@@ -25,6 +25,7 @@ export default {
   _certified_training: {
     catalog_elearning_courses: 'Cursos eLearning de Catálogo',
     pedagogical_consulting_training: 'Consultoria pedagógica & Formação',
+    executive_education_udemy_course: 'Educação Executiva & Cursos Udemy',
   },
 
   _apps_e_web_services: {

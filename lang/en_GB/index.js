@@ -7,6 +7,8 @@ import _software_academico from './_software_academico'
 import _home from './_home'
 import _menus from './_menus'
 import _sobre_nos from './_sobre_nos'
+//import _home from './_eSchooling'
+
 
 export default {
   home: _home,
@@ -17,5 +19,6 @@ export default {
   curso_elearning_amedida: _curso_elearning_amedida,
   apps_servicos_web: _apps_servicos_web,
   software_academico:_software_academico,
-  sobre_nos: _sobre_nos
+  sobre_nos: _sobre_nos,
+  //eSchooling: _eSchooling
 }

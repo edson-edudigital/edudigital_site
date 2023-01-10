@@ -47,6 +47,7 @@
           <Title :type="'title'" :title="'Portugal'"></Title>
           <div>
             <p>+351 214391476</p>
+            <p>*Chamada para a rede fixa nacional</p>
             <p>geral@edudigital.pt</p>
             <p>Taguspark - Parque da Ciência e Tecnologia</p>
             <p>Núcleo Central, nº 302</p>

@@ -39,7 +39,7 @@
       <template #text>
         <Title :title="$translate().apps_servicos_web.software_integration.title" />
         <p>
-          {{$translate().apps_servicos_web.software_integration.text}}
+          {{$translate().apps_servicos_web.software_integration.text2}}
         </p>
       </template>
     </SectiondubleCartoon>
@@ -84,7 +84,7 @@
       <template #text>
         <Title :title="$translate().apps_servicos_web.autentication_systems.title" />
         <p>
-          {{$translate().apps_servicos_web.autentication_systems.text}}
+          {{$translate().apps_servicos_web.autentication_systems.text2}}
         </p>
       </template>
     </SectiondubleCartoon>

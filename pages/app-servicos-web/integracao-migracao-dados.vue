@@ -2,17 +2,15 @@
   <div>
     <Banner
       :background-image="'	https://edudigital.pt/images/bigstock-Two-Smiling-Businessmen-Or-Pro-241216258%20.jpg'"
-      :title="'Produção eLearning personalizado'"
+      :title ="$translate().apps_servicos_web.banner.title1" 
       :columns-template="'2fr 1fr'"
-      :button-action-text="'Agenda a sua reunião'"
+      :button-action-text="$translate().apps_servicos_web.banner.button_action_text"
       :button-action-href="'/fale-connosco'"
     >
       <template #text>
-        Fazemos desenvolvimento de cursos de eLearning à medida, de A até Z. A
-        partir de conteúdos pedagógicos enviados por si ou concebidos pela nossa
-        equipa, adaptamos cada curso à sua organização, com interatividade,
-        conversão de formato presencial para online, com design da sua marca,
-        compatível com vários dispositivos e em formato SCORM.
+        <p>
+          {{$translate().apps_servicos_web.banner.text1}}
+        </p>
       </template>
     </Banner>
 
@@ -24,13 +22,9 @@
       :color="'#616161'"
     >
       <template #text>
-        <Title :title="'Integração de softwares'" />
+        <Title :title="$translate().apps_servicos_web.software_integration.title1" />
         <p>
-          Com dezenas de LMS já desenvolvidos em vários países, nós podemos
-          integrar as plataformas Totara e Open-source com outros softwares,
-          permitindo a comunicação entre os vários sistemas, facilitando a
-          partilha automática de dados, garantindo a rapidez e simplicidade de
-          troca de dados, sem a necessidade de passagem manual de ficheiros.
+          {{$translate().apps_servicos_web.software_integration.text1}}
         </p>
       </template>
     </SectiondubleCartoon>
@@ -51,13 +45,12 @@
       :color="'#616161'"
     >
       <template #text>
-        <Title :title="'Migração de Bases de Dados'" />
+        <Title :title="$translate().apps_servicos_web.data_migration.title" />
         <p>
-          Mapeamos, migramos ou sincronizamos a plataforma de eLearning com o
-          seu software de Recursos Humanos, CRM ou ERP para haver atualizações
-          automáticas de utilizadores, criação de hierarquias, importação de
-          conteúdos digitais ou áreas de conhecimento da sua organização.
+          {{$translate().apps_servicos_web.data_migration.text1}}
+          
         </p>
+
       </template>
     </SectiondubleCartoon>
 

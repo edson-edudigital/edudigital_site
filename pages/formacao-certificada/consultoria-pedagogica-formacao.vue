@@ -1,17 +1,14 @@
 <template>
   <main>
     <Banner
-      :title="'Consultoria Pedagógica & Formação'"
+    :title="$translate().formacao_certificada.banner.title1"
       :background-image="'https://edudigital.pt/images/bigstock-Two-Smiling-Businessmen-Or-Pro-241216258%20.jpg'"
-      :button-action-text="'Fale connosco'"
+      :button-action-text="$translate().formacao_certificada.banner.buttonText1"
       :button-action-href="'/fale-connosco'"
       :columns-template="'2fr 1fr'"
     >
       <template #text>
-        Com a nossa experiência de mais de 10 anos a implementar tecnologias em
-        eLearning, a consultoria pedagógica é uma área que adiciona valor e
-        maximiza o seu projeto de eLearning, quer seja uma instalação de
-        plataforma, ou seja, um conjunto de formações online.
+        {{$translate().formacao_certificada.banner.text1}}
       </template>
     </Banner>
 
@@ -22,6 +19,8 @@
       :color="'#fff'"
       :title="'Serviços e Vantagens'"
     />
+
+    <Contactform />
   </main>
 </template>
 

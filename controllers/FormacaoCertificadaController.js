@@ -26,7 +26,7 @@ export default {
 
       {
         img: 'https://edudigital.pt/home/images/EDUdigital_site_catalogo_inteligencia_emocional_v1.jpg',
-        title: 'Área financeira e Línguas',
+        title: 'Curso de Línguas',
         text: 'Formação dos níveis A1 a C2, de inglês Cambridge (e Português), com teste diagnóstico, manuais e tutorias live training.',
       },
 
@@ -40,6 +40,28 @@ export default {
         img: 'https://edudigital.pt/home/images/EDUdigital_site_catalogo_Excel_relat_dinamicos_e_powerpivot_v1-min.jpg',
         title: 'Microsoft Office',
         text: 'Conhecimentos sobre uso das ferramentas de produtividade, e a gestão de volumes de dados.',
+      },
+    ],
+    ServicosVantagens: [
+      {
+        icon: 'https://edudigital.pt/home/images/Grupo_881.png',
+        title: 'Branding do curso',
+        text: 'Personalização básica do curso com o branding e validação de conteúdos pelo cliente.',
+      },
+      {
+        icon: 'https://edudigital.pt/home/images/Grupo_875.png',
+        title: 'Formação pronta-a-entregar com bom custo-qualidade',
+        text: 'Cursos SCORM compatíveis com qualquer plataforma, com subscrição vitalícia ou com acesso por formando.',
+      },
+      {
+        icon: 'https://edudigital.pt/home/images/Grupo_894.png',
+        title: 'Live Training',
+        text: 'Opção de ter live training nos cursos, com tutoria do formador, para prática e para tirar dúvidas.',
+      },
+      {
+        icon: 'https://edudigital.pt/home/images/Grupo_863.png',
+        title: 'Testes de avaliação e suporte técnico',
+        text: 'Cursos especializados, que incluem testes de avaliação, exercícios e suporte técnico para obter relatórios e certificados.',
       },
     ],
   },

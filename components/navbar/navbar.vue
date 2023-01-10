@@ -155,7 +155,7 @@
                   to="/formacao-certificada/educacao-executiva-cursos-udemy"
                   >{{
                     $translate().menus._certified_training
-                      .pedagogical_consulting_training
+                      .executive_education_udemy_course
                   }}</NuxtLink
                 >
               </li>
@@ -219,6 +219,7 @@
                   }}</NuxtLink
                 >
               </li>
+              <!--
               <li>
                 <NuxtLink
                   class="menu link"
@@ -227,7 +228,7 @@
                     $translate().menus._academic_software.anti_plagiarism_sytem
                   }}</NuxtLink
                 >
-              </li>
+              </li>-->
             </ul>
           </div>
         </li>

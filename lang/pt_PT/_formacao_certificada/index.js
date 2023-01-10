@@ -1,8 +1,17 @@
 export default {
     banner: {
       title: 'Formação Certificada',
+      title1: 'Cursos eLearning de Catálogo',
+      title2: 'Consultoria Pedagógica & Formação',
+      title3: 'Educação Executiva Nova SBE',
       text: 'Ganhe tempo e dinheiro com cursos eLearning de catálogo e tenha o nosso apoio técnico-pedagógico, como profissionais experientes, para identificar os objetivos de eLearning, maximizar o potencial do seu projeto e acelerar a implementação.',
+      text1: 'Cursos de eLearning prontos a usar para a sua plataforma eLearning. Trabalhamos ao seu lado para fornecer os melhores conteúdos para os seus formandos, seja através de acessos imediatos ao LMS EDUdigital, seja através do branding dos cursos e instalação no seu LMS.',
+      text2: 'Com a nossa experiência de mais de 10 anos a implementar tecnologias em eLearning, a consultoria pedagógica é uma área que adiciona valor e maximiza o seu projeto de eLearning, quer seja uma instalação de plataforma, ou seja, um conjunto de formações online.',
+      text3: 'A EDUdigital é parceira da Universidade Nova de Lisboa - School of Business & Economics e disponibiliza programas de formação dedicados às necessidades dos executivos. São programas em diversas áreas adaptados aos objetivos e atividades de profissionais e quadros médios e altos de empresas. Explore os 11 programas que temos disponíveis.',
       buttonText: 'Contate-nos',
+      buttonText1: 'Peça o seu catálogo',
+      buttonText2: 'Fale Connosco',
+      buttonText3: 'Agende a sua reunião',
     },
   
     catalog_elearning_courses: {
@@ -25,5 +34,10 @@ export default {
     etrainers_lms_administrators_courses:{
         title: 'Cursos de eFormadores e Administradores de LMS',
         text: 'Como especialistas em plataformas de eLearning, fazemos workshops práticos para capacitar tecnicamente eFormadores e administradores de plataformas eLearning. Fale connosco e preparamos a formação adaptada ao perfil dos seus utilizadores: boas práticas de dinamizar a sua formação online e os conhecimentos técnicos necessários para a administração técnica da sua plataforma eLearning.',
+    },
+
+    cursos_udemy:{
+      title:'Cursos Udemy',
+      text:'A EDUdigital é parceira oficial da Udemy Business; disponibiliza e integra em plataformas, mais de 183.000 cursos produzidos por especialistas, sobre assuntos técnicos e comportamentais. Os cursos da Udemy são projetados para especializar formandos, aumentar a produtividade e dar competências técnicas em áreas de conhecimento críticas.',
     },
   }
