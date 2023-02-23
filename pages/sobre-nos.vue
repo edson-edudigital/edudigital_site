@@ -190,20 +190,17 @@
       </div>
     </Section>
 
-    <Contactform />
-    <!-- <Sectionduble
+    
+   <Sectionduble
       :id="'sobre-nos-recrutamento'"
       :img="'https://edudigital.pt/home/images/Recrutamento.png'"
       :flexDirection="'row-reverse'"
       :color="'var(--color-cinza)'"
     >
       <template #text>
-        <Title :title="'Recrutamento'"/>
-        <p>Interessado em pertencer à nossa equipa? Na EDUdigital,
-            trabalhamos em várias geografias, partilhamos projetos comuns
-            e valorizamos o trabalho em equipa sem fronteiras, numa visão
-            de liderar o setor das tecnologias na aprendizagem nos países
-            de língua portuguesa
+        <Title :title="$translate().sobre_nos.recrutamento.title"/>
+        <p>
+          {{$translate().sobre_nos.recrutamento.text}}
         </p>
         <div>
           <a class="btn btn-secondary" target="_blank" href="https://recrutamento.edudigital-learn.com/">Candidatura espontânea <v-icon
@@ -214,7 +211,8 @@
         </v-icon></a>
         </div>
       </template>
-    </Sectionduble> -->
+    </Sectionduble> 
+    <Contactform />
   </div>
 </template>
 
